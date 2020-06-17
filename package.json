@@ -1,6 +1,7 @@
 {
   "name": "css-to-js",
   "displayName": "css-to-js",
+  "publisher": "soradev4",
   "description": "",
   "version": "0.0.1",
   "engines": {
