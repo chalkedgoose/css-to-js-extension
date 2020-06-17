@@ -123,7 +123,7 @@ exports.default = postcss.plugin("postcss-css-to-js", (options = {}) => {
             });
         });
         css.nodes = [
-            postcss.parse(`/*\n\nconst styles = stylex.create(${stringify(styles, true)});\n\n*/`),
+            postcss.parse(`/*\n\n${stringify(styles, true)}\n\n*/`),
         ];
     };
 });
