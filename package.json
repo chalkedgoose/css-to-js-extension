@@ -52,6 +52,11 @@
     "vscode-test": "^1.3.0"
   },
   "dependencies": {
-    "postcss": "^7.0.32"
+    "ansi-styles": "^3.2.1",
+    "chalk": "^2.4.2",
+    "escape-string-regexp": "^1.0.5",
+    "postcss": "^7.0.32",
+    "source-map": "^0.6.1",
+    "supports-color": "^6.1.0"
   }
 }
